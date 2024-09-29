@@ -20,10 +20,10 @@ calc = Calculator()  # Initialize calculator.
 print(calc.get_current())  # Make sure the start value is 0.
 
 calc.add(2)  # Add 2.
-print(calc.get_current())  # Print the result, it should be 2.
+print(calc.get_current())  
 
 calc.multiply(3)  # Multiply by 3.
-print(calc.get_current())  # Print the result, it should be 6.
+print(calc.get_current())  
 
 calc.exponentiate(3)  # Raise to the power of 3.
-print(calc.get_current())  # Print the result, it should be 216.
+print(calc.get_current())  
