@@ -61,7 +61,7 @@ def play_game():
     print(f"Computer's final hand: {computer_cards}, final score: {computer_score}")
     print(compare(user_score, computer_score))
 
-# Game loop
+# Loops through the game
 u_choice = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
 while u_choice == "y":
     play_game()
