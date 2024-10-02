@@ -3,7 +3,7 @@
 phone_book = {"John": 123, "Jane": 234, "Gerard": 345}
 print(phone_book)
 
-# Add a new item to the dictionary.
+# Add a new item to the dict.
 phone_book["Jill"] = 345
 print(phone_book)
 
