@@ -1,5 +1,5 @@
 PLACEHOLDER = "[name]"
-
+//to open the text file
 with open("./Input/Names/invited_names.txt") as name_file:
     names = name_file.readlines()
 
