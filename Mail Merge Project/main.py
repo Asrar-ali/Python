@@ -1,8 +1,9 @@
 PLACEHOLDER = "[name]"
-//to open the text file
+##to open the text file
 with open("./Input/Names/invited_names.txt") as name_file:
     names = name_file.readlines()
 
+##
 with open("./Input/Letters/starting_letter.txt") as letter_file:
     letter_content = letter_file.read()
     for name in names:
