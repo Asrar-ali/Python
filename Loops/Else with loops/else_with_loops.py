@@ -7,7 +7,7 @@ else:
 
 for i in range(1, 5):
     # Add a condition for interruption.
-        # Add a statement that will terminate the loop.
+        # Add a statement that will terminate
     print(i)
 else:
     print("for loop is done")
