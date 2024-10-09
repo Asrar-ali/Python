@@ -4,6 +4,7 @@ from ball import Ball
 import time
 from scoreboard import Scoreboard
 
+##making screen of 600x800
 screen =  Screen()
 screen.bgcolor("black")
 screen.setup(height= 600, width= 800)
