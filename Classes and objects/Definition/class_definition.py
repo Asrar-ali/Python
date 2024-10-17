@@ -7,7 +7,7 @@ class MyClass:
 
 # `my_object` holds an object of the class "MyClass" that contains
 # the `variable` and the `foo` function
-my_object = ???
+my_object = Myclass()
 
 my_object.foo()  # Calls the `foo` method defined in MyClass
 print(my_object.variable)  # Prints the value of the `variable` attribute defined in MyClass
