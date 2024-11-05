@@ -9,7 +9,7 @@ def print_heart(n):
         for j in range(1, i + 1):
             print("*", end=" ") if (j == 1 or j == i) else print(end="  ")
         print()
-##range
+
     for i in range(n, 0, -1):
         for j in range(i, n):
             print(end="  ")
